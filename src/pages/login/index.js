@@ -15,7 +15,7 @@ export default function Home() {
   const [selectedDiseases, setSelectedDiseases] = useState([]);
   const [testResult, setTestResult] = useState([]); // Corrigido de testTesult para testResult
 
-const possibleOutcomes = ['Dengue', 'Zika', 'Chikungunya', 'Febre Amarela', 'Malária'];
+  const possibleOutcomes = ['Dengue', 'Zika', 'Chikungunya', 'Febre Amarela', 'Malária'];
 
   const sendToAi = async () => {
     // Simula um pequeno atraso, como uma chamada de API real
